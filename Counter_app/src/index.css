@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.head {
+  font-size: 60px;
+}
+
+.counter {
+  font-size: 50px;
+}
+
+.buttons_div {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 20px;
+}
+
+.buttons_div button {
+  font-weight: 800;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid black ;
+  transition: all 0.2s ease;
+  font-size: 20px;
+}
+
+.buttons_div button:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+  background-color: rgb(150, 220, 243);
+}
+
+.buttons_div button:active {
+  background-color: rgb(117, 206, 236);
+  transform: scale(1);
+
+}
